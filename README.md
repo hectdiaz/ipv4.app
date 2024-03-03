@@ -9,3 +9,6 @@ Provides geolocation information, including country, city, region, and coordinat
 **Prerequisites**
 Python 3.x installed on your system.
 API key from the chosen IP information API provider.
+
+**Backlog**
+Future releases will include the following: Display ISP, and Autonomous System Number
