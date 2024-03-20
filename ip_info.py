@@ -26,6 +26,7 @@ def main():                                    #this is defining the main code u
         print("IP Address:", ip_info.get('ip')) #This is requesting the IP address of the current user
         print("Country:", ip_info.get('country_name')) #The feature pulls the country of the user
         print("Type:", ip_info.get('type')) #This shows the type of connection, whether an IPV4 or IPV6
+        print("You are located in the state of ", ip_info.get('region_name')) #shows the state that the user is currently in
     else:
         print("Failed to retrieve IP information.") #This gives us a failure if the code is run without any IP addressing information
 
